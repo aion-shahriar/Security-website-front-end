@@ -1,0 +1,114 @@
+nav{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+li{
+    list-style: none;
+    font-size:20px;
+}
+.menu{
+    color: orange;
+}
+.menu-container{
+    display: flex;
+    gap: 40px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+}
+.banner-left{
+    width:400px;
+    line-height:2;
+}
+.banner-img{
+    width: 350px;
+    
+}
+.head-1{
+    font-size: 40px;
+    color: white;
+    margin: -10px 0;
+}
+.text-1{
+    font-size: 20px;
+    color: orange;
+    margin: -10px 0;
+}
+
+.header-container{
+    background-image: url(images/security-img.png);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.7); /* Dark overlay */
+    background-blend-mode: multiply; /* Blends colors */
+
+
+}
+.react-btn{
+    background-color: orange;
+}
+.hire-btn{
+    background-color:lightskyblue;
+}
+.logo-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 50px;
+    margin-right:50px;
+}
+.service-info{
+    text-align: center;
+}
+.services-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.services-down{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.service-box{
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    text-align: center;
+    margin-top: 20px;
+}
+.down-banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top:70px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+.orange{
+    color:orange;
+}
+.card-img{
+    margin-top: 5px;
+}
+.email-input{
+    color: white;
+    background-color: gray;
+}
+input::placeholder{
+    color: white;
+    opacity: 0.5;
+}
